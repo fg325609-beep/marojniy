@@ -1,0 +1,713 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-family: "Hind Madurai", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header .container .container_navbar .navbar {
+  background: rgb(242, 206, 218);
+  margin: 0 auto;
+  padding: 20px 10px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  list-style: lower-alpha;
+  justify-content: space-between;
+  box-shadow: 1px 10px 10px rgb(66, 63, 63);
+  z-index: 100;
+}
+header .container .container_navbar .navbar .munu {
+  display: none;
+}
+header .container .container_navbar .navbar .navbar_ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+header .container .container_navbar .navbar .navbar_ul a {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(65, 63, 63);
+  outline: none;
+}
+header .container .container_navbar .navbar .navbar_ul a:hover {
+  color: rgb(210, 49, 102);
+  font-weight: 700;
+  font-size: 15px;
+  color: black;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+header .container .container_navbar .navbar .glow-on-hover {
+  padding: 14px 50px;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgb(250, 250, 250);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+main section .container .container_cards {
+  padding-bottom: 30px;
+  margin-top: 150px;
+  padding: 20px;
+  background: rgb(242, 206, 218);
+  display: flex;
+  align-items: center;
+  height: auto;
+}
+main section .container .container_cards .cards_left {
+  gap: 20px;
+  align-content: space-between;
+  width: 50%;
+}
+main section .container .container_cards .cards_left p {
+  font-family: Hind Madurai;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+main section .container .container_cards .cards_left a {
+  padding: 10px 20px;
+  background: #00de55;
+  background: linear-gradient(120deg, rgb(0, 222, 85) 0%, rgb(240, 70, 70) 50%, rgb(242, 236, 228) 100%);
+  border-radius: 10px 100px;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+main section .container .container_cards .cards_left .one_p {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 10%;
+}
+main section .container .container_cards .cards_left h1 {
+  font-family: Fredoka One;
+  font-weight: bold;
+  font-size: 57.33px;
+  line-height: 121%;
+  letter-spacing: 0%;
+}
+main section .container .container_cards .cards_left h1 span {
+  color: rgb(210, 49, 102);
+}
+main section .container .container_cards .cards_right {
+  width: 100%;
+  position: relative;
+  height: auto;
+}
+main section .container .container_cards .cards_right .right_img {
+  position: absolute;
+  right: 20px;
+  top: -200px;
+  width: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-shadow: 1px 1px 10px 1px pink;
+}
+main section .container .container_cards .cards_right .right_img_two {
+  position: absolute;
+  right: -13px;
+  top: -54px;
+  width: 73%;
+  z-index: 0;
+}
+main section .container .section_two {
+  padding: 200px 0;
+  padding-top: 100px;
+}
+main section .container .section_two .cards {
+  display: flex;
+  justify-content: space-around;
+}
+main section .container .section_two .cards .card {
+  width: 20%;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.03);
+  font-family: Hind Madurai;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main section .container .section_two .cards .card h1 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_there {
+  background: rgb(248, 237, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .container .section_there .there_left {
+  align-content: space-between;
+  width: 35%;
+}
+main section .container .section_there .there_left h1 {
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 111%;
+  letter-spacing: 0%;
+}
+main section .container .section_there .there_left p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-bottom: 30px;
+}
+main section .container .section_there .there_left a {
+  padding: 10px 20px;
+  background: #00de55;
+  background: linear-gradient(120deg, rgb(0, 222, 85) 0%, rgb(240, 70, 70) 50%, rgb(242, 236, 228) 100%);
+}
+main section .container .there_right {
+  height: auto;
+  width: 50%;
+}
+main section .container .there_right img {
+  width: 100%;
+  -webkit-backdrop-filter: blur(32px) rgb(237, 181, 199);
+          backdrop-filter: blur(32px) rgb(237, 181, 199);
+}
+main section .container .section_thour h1 {
+  text-align: center;
+  font-family: Hind Madurai;
+  font-weight: 600;
+  font-size: 44.2px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+main section .container .section_thour .thour_link {
+  display: flex;
+  justify-content: space-around;
+}
+main section .container .section_thour .thour_link a {
+  color: rgba(29, 28, 28, 0.548);
+}
+main section .container .section_thour .thour_link a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+main section .container .section_thour .thour_card_one {
+  display: flex;
+  align-items: center;
+}
+main section .container .section_thour .thour_card_one .card_one_left {
+  width: 80%;
+}
+main section .container .section_thour .thour_card_one .card_one_left .two_ps {
+  display: flex;
+}
+main section .container .section_thour .thour_card_one .card_one_left img {
+  width: 100%;
+}
+main section .container .section_thour .thour_card_one .card_one_left .a {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 20px;
+}
+main section .container .section_thour .thour_card_one .card_one_left .a span {
+  padding: 10px 20px;
+  justify-content: center;
+}
+main section .container .section_thour .thour_card_one .card_one_text {
+  width: 50%;
+  align-content: space-between;
+}
+main section .container .section_thour .thour_card_one .card_one_text .text_valyuta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+main section .container .section_thour .thour_card_one a {
+  padding: 10px 20px;
+  background: rgb(214, 67, 116);
+}
+main section .container .section_thour .section_thour_two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main section .container .section_thour .section_thour_two .two_left {
+  align-content: space-between;
+  gap: 20px;
+  justify-content: flex-end;
+  width: 40%;
+  text-align: end;
+}
+main section .container .section_thour .section_thour_two .two_left .two_ps {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
+}
+main section .container .section_thour .section_thour_two .two_left .two_ps del {
+  text-decoration: line-through;
+}
+main section .container .section_thour .section_thour_two .two_left a {
+  justify-content: flex-end;
+  width: 30%;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+}
+main section .container .section_thour .section_thour_two .two_left h1 {
+  text-align: end;
+  font-family: Hind Madurai;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: right;
+}
+main section .container .section_thour .section_thour_two .two_right {
+  width: 50%;
+}
+main section .container .section_thour .section_thour_two .two_right img {
+  width: 100%;
+}
+main section .container .section_five {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .section_five .five_left {
+  width: 50%;
+}
+main section .container .section_five .five_left img {
+  width: 100%;
+}
+main section .container .section_five .five_right {
+  width: 40%;
+  align-content: space-between;
+}
+main section .container .section_five .five_right .five_ps {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+main section .container .section_five .five_right a {
+  padding: 10px 20px;
+  background: #3F5EFB;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+main section .container .section_six {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main section .container .section_six .six_left {
+  width: 30%;
+  align-content: space-between;
+  gap: 20px;
+}
+main section .container .section_six .six_left .profil {
+  display: flex;
+  align-items: center;
+}
+main section .container .section_six .six_left .profil .profil_text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+main section .container .section_six .six_left .left_p {
+  padding: 20px;
+  line-height: 30px;
+}
+main section .container .section_six .six_left .menus {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+main section .container .section_six .six_left .menus img {
+  transform: scale(1);
+  border: 1px solid wheat;
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+main section .container .section_six .six_left .menus img:hover {
+  border: 1px solid red;
+  transform: scale(1.5);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main section .container .section_six .six_right {
+  width: 40%;
+}
+main section .container .section_six .six_right img {
+  width: 100%;
+}
+main section .container .section_seven {
+  margin-top: 100px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  background: rgb(248, 237, 240);
+  justify-content: space-around;
+}
+main section .container .section_seven .seven_left {
+  width: 25%;
+}
+main section .container .section_seven .seven_left img {
+  width: 100%;
+  border-radius: 30px;
+  transform: translate(0px, 50px);
+}
+main section .container .section_seven .seven_right {
+  width: 40%;
+}
+main section .container .section_seven .seven_right .icon {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+main section .container .section_seven .seven_right .seven_linklar {
+  display: flex;
+  align-items: center;
+}
+main section .container .section_eith {
+  padding: 200px 0;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+main section .container .section_eith h1 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main section .container .section_eith form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  border: 0.1px solid rgb(73, 72, 72);
+  margin: 0 auto;
+}
+main section .container .section_eith form a {
+  padding: 21px 40px;
+  background: #3F5EFB;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgb(252, 70, 107) 100%);
+}
+main section .container .section_eith form input {
+  height: 60px;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+.munu {
+  display: none;
+}
+
+.pastga_pozition {
+  font-size: 100px;
+  font-weight: bold;
+  color: rgb(178, 180, 54);
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+
+footer .container .fconteiner {
+  width: 100%;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  color: white;
+  padding: 30px 50px;
+}
+footer .container .fconteiner .fcontainer_one {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  text-align: left;
+}
+footer .container .fconteiner .fcontainer_one img {
+  width: 40%;
+}
+footer .container .fconteiner .fcontainer_one .icons {
+  display: flex;
+}
+footer .container .fconteiner .one_ul a {
+  color: white;
+}
+footer .container .fconteiner .one_ul_two a {
+  color: white;
+}
+footer .container .fconteiner .one_ul_two a form {
+  width: 80%;
+}
+footer .container .fconteiner .one_ul_two a form span {
+  display: flex;
+  align-items: center;
+}
+footer .container .fconteiner .one_ul_two a form span i {
+  font-size: 30px;
+}
+footer .container .fconteiner .one_ul_two a form a {
+  padding: 10px 20px;
+  color: white;
+  background: #24bd5e;
+  background: radial-gradient(circle, rgb(36, 189, 94) 0%, rgb(209, 140, 140) 50%, rgb(191, 146, 88) 100%);
+}
+footer .container .fconteiner .one_ul_two a form input {
+  width: 100%;
+  background: white;
+  padding: 20px 10px;
+  border: none;
+  outline: none;
+}
+
+@media (max-width: 1020px) {
+  main section .container .container_cards .cards_left h1 {
+    font-size: 25px;
+  }
+  main section .container .container_cards .cards_right .right_img {
+    right: 0;
+  }
+  main section .container .container_cards .cards_right .right_img_two {
+    top: -100px;
+  }
+  main section .container .section_seven .seven_left {
+    width: 40%;
+  }
+  main section .container .section_seven h1 {
+    font-size: 26px;
+  }
+  main section .container .section_seven .seven_right {
+    width: 30%;
+  }
+  main section .container .section_seven .seven_right .icon h1 {
+    font-size: 26px;
+    font-weight: 300;
+  }
+  main section .container .section_seven .seven_linklar {
+    flex-direction: column;
+  }
+  main section .container .section_eith {
+    width: 100%;
+  }
+  footer .container .fconteiner {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  footer .container .fconteiner .one_ul {
+    width: 100%;
+  }
+  footer .container .fconteiner .fcontainer_one {
+    width: 100%;
+  }
+}
+@media (max-width: 800px) {
+  main section .container .container_cards {
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  main section .container .container_cards .right_img {
+    display: none;
+  }
+  main section .container .container_cards .right_img_two {
+    display: none;
+  }
+  main section .container .container_cards .cards_left {
+    width: 100%;
+  }
+  header .container .container_navbar .navbar .navbar_ul {
+    gap: 1rem;
+  }
+}
+@media (max-width: 620px) {
+  header .container .container_navbar .navbar .munu {
+    display: block;
+  }
+  header .container .container_navbar .navbar .navbar_ul {
+    display: none;
+  }
+  main section .container .section_two .cards {
+    flex-wrap: wrap;
+  }
+  main section .container .section_two .cards .card {
+    width: 100%;
+  }
+  main section .container .section_there {
+    flex-direction: column-reverse;
+  }
+  main section .container .section_there .there_left {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .section_there .there_right {
+    width: 100%;
+  }
+}
+@media (max-width: 752px) {
+  main section .container .section_there .there_left {
+    width: 35%;
+  }
+  main section .container .section_there .there_left h1 {
+    font-size: 25px;
+  }
+  main section .container .section_there .there_left p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  main section .container .section_thour .thour_link {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  main section .container .card_one_left {
+    width: 20%;
+  }
+  main section .container .card_one_left img {
+    width: 20%;
+  }
+}
+@media (max-width: 690px) {
+  main section .container .section_thour .thour_card_one {
+    flex-direction: column;
+  }
+  main section .container .section_thour .thour_card_one .card_one_left {
+    width: 100%;
+  }
+  main section .container .section_thour .thour_card_one .card_one_text {
+    width: 100%;
+    text-align: center;
+  }
+  main section .container .section_thour .thour_card_one .card_one_text .text_valyuta {
+    justify-content: center;
+  }
+  main section .container .section_thour .section_thour_two {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  main section .container .section_thour .section_thour_two .two_left {
+    width: 100%;
+    text-align: center;
+  }
+  main section .container .section_thour .section_thour_two .two_left .two_ps {
+    justify-content: center;
+  }
+  main section .container .section_thour .section_thour_two .two_left .two_ps .hologram {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  main section .container .section_thour .section_thour_two .two_left h1 {
+    text-align: center;
+    justify-content: center;
+  }
+  main section .container .section_thour .section_thour_two .two_right {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .section_five {
+    flex-direction: column;
+  }
+  main section .container .section_five .five_left {
+    width: 100%;
+  }
+  main section .container .section_five .five_right {
+    text-align: center;
+    width: 100%;
+  }
+  main section .container .section_five .five_right .five_ps {
+    text-align: center;
+    justify-content: center;
+  }
+  main section .container .section_six {
+    padding-top: 100px;
+    flex-direction: column;
+    gap: 50px;
+  }
+  main section .container .section_six .menus {
+    text-align: center;
+    justify-content: center;
+  }
+  main section .container .section_six .six_left {
+    gap: 30px;
+    width: 100%;
+  }
+  main section .container .section_six .six_left .left_p {
+    text-align: center;
+  }
+  main section .container .section_six .six_left .profil {
+    text-align: center;
+    justify-content: center;
+  }
+  main section .container .section_seven {
+    flex-direction: column;
+  }
+  main section .container .section_seven .seven_left {
+    transform: none;
+    width: 70%;
+  }
+  main section .container .section_seven .seven_left img {
+    border-radius: 45px;
+    width: 100%;
+  }
+  main section .container .section_seven .seven_right {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+  }
+  main section .container .section_seven .seven_right .icon {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
